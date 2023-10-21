@@ -1,0 +1,23 @@
+@import 'config';
+.container{
+    & .innerCont{
+        @include flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+   
+    margin: 3.8rem 0;
+
+    & .icons{
+        font-size: 2rem;
+        color: #0E0511;
+        background-color: #C183C1;
+        padding: .4rem;
+        cursor: pointer;
+        &:hover{
+            color: $light-color;
+        } 
+    } 
+}

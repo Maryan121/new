@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+@import 'header';
+@import 'config';
+@import 'about';
+@import 'mediaIcons';
+@import 'projects';
+
+body{
+    background-color: $bg-color;
+    color: $light-color;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

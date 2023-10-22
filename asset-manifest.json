@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/new/static/css/main.cd32693c.css",
+    "main.js": "/new/static/js/main.ecb84700.js",
+    "static/media/space-tourism.PNG": "/new/static/media/space-tourism.57c153af83f03f228a48.PNG",
+    "static/media/card-details.PNG": "/new/static/media/card-details.a3b434cd125c8a965995.PNG",
+    "static/media/easy-bank.PNG": "/new/static/media/easy-bank.a00adb1a681de26141d5.PNG",
+    "index.html": "/new/index.html",
+    "main.cd32693c.css.map": "/new/static/css/main.cd32693c.css.map",
+    "main.ecb84700.js.map": "/new/static/js/main.ecb84700.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd32693c.css",
+    "static/js/main.ecb84700.js"
+  ]
+}

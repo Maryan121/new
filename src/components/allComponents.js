@@ -3,6 +3,8 @@ import Header from './header'
 import About from './about'
 // import MediaIcons from './mediaIcons'
 import Projects from './projects'
+import Skills from './skills'
+import Contact from './contact'
 
 export default function AllComponents() {
   return (
@@ -10,6 +12,8 @@ export default function AllComponents() {
       <Header />
       <About />
       <Projects />
+      <Skills />
+      <Contact />
     </div>
   )
 }

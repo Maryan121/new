@@ -1,0 +1,82 @@
+.skillsContainer{
+    margin: 10rem 1.5rem;
+    
+    background-color: #1D051F;
+    background-color: #0B050D;
+    background-color: #0D050F;
+    box-shadow: 0px 0px 1px #EEDCEE;
+
+    padding: 2rem 1rem;
+    @include flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    & .leaveIcon{
+        position: absolute;
+        top: -18%;
+        left: -10%;
+        opacity: .1;
+        color: rgb(247, 200, 113);
+        color: #EEDCEE;
+        font-size: 10rem;
+        transform: rotate(-4deg);
+        z-index: -1;
+    }
+    & .subCont{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        & .skillIcons{
+            padding: 1rem .4rem;
+            // background-color: #0E0511;
+            font-size: 2.5rem;
+            font-size: 1.5rem;
+            box-shadow: 0px 0px 2px rgb(231, 131, 231);
+            // background-color: #1D051F;
+            & .typog{
+                text-transform: capitalize;
+            }
+            text-transform: capitalize;
+            &:hover{
+                opacity: .7;
+            }
+        }
+    }
+    & .skillsTitle{
+        margin-bottom: 2rem;
+
+
+    }
+}
+
+@media(min-width: 600px){
+    .skillsContainer{
+        width: 70%;
+        margin: 10rem auto;
+
+        & .subCont{
+            grid-template-columns: repeat(3,1fr);
+            // width: 70%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media(min-width:920px){
+    .skillsContainer{
+       width: 65%;
+        & .leaveIcon{
+            top: -24%;
+            left: -4.2%;
+        }
+        & .subCont{
+            grid-template-columns: repeat(4,1fr);
+            // padding: 2rem;
+            margin: 0 auto;
+        }
+    }
+}

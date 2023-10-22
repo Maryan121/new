@@ -105,6 +105,11 @@ body{
 }
 
 
+@media(min-width:509px){
+    .header{
+        width: 94%;
+    }
+}
 @media(min-width:900px){
     .header{
         @include flex;

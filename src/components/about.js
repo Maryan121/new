@@ -16,7 +16,7 @@ export default function About() {
                 web design to optimizing user interfaces, i thrive on turning ideas into 
                 pixel-perfect, dynamic websites that leave a lasting impression.
             </Typography>
-            <Button variant='outlined' className='contactBtn' gutterBottom>contact me</Button>
+            <Button href='./contact' variant='outlined' className='contactBtn' gutterBottom>contact me</Button>
              <MediaIcons />
 
         </Container>

@@ -1,12 +1,10 @@
 import React from 'react'
-import { Html, Css, Javascript, GitHub, } from '@mui/icons-material'
-import {FaCanadianMapleLeaf, FaBootstrap, FaReact, FaGit, FaNpm, FaHtml5, FaCss3, FaJsSquare, FaYarn, FaSass, FaFileExcel } from 'react-icons/fa';
+import {FaCanadianMapleLeaf } from 'react-icons/fa';
 import { Typography } from '@mui/material';
-import leaves from '../leaves.jpg';
 
 export default function Skills() {
   return (
-    <div className='skillsContainer'>
+    <div className='skillsContainer' id='skills'>
         <FaCanadianMapleLeaf className='leaveIcon'/>
         <Typography className='skillsTitle' variant='h4'>skills</Typography>
         <div className='subCont'>

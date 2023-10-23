@@ -3,8 +3,12 @@ import Header from './header'
 import About from './about'
 // import MediaIcons from './mediaIcons'
 import Projects from './projects'
+import Challenges from './challenges'
 import Skills from './skills'
 import Contact from './contact'
+import Footer from './footer'
+
+
 
 export default function AllComponents() {
   return (
@@ -12,8 +16,10 @@ export default function AllComponents() {
       <Header />
       <About />
       <Projects />
+      <Challenges />
       <Skills />
       <Contact />
+      <Footer />
     </div>
   )
 }

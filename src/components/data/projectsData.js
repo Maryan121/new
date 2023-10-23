@@ -1,8 +1,12 @@
+import video1 from '../../videos/payApi.mp4';
+import video2 from '../../videos/restaurant.mp4';
+import video3 from '../../videos/comeTv.mp4';
+import video4 from '../../videos/ip-tracker.mp4';
 export default [
     {
         id:1,
         title: 'payApi',
-        video: './videos/payApi.mp4',
+        video: video1,
         description: 'PayAPI is a responsive landing page.This project features a clean and user-friendly interface, making it easy for users to explore    its offerings. It includes multiple pages for presenting the features, pricing, and contact information. The project is built with HTML, CSS, and JavaScript, ensuring a seamless and responsive user experiences.',
         demoLink: 'https://maryan121.github.io/payApi/',
         codeLink: 'https://github.com/Maryan121/payApi'
@@ -10,7 +14,7 @@ export default [
     {
         id:2,
         title: 'yummyFood',
-        video: './videos/restaurant.mp4',
+        video: video2,
         description: ` The "YummyFood Restaurant
         Website" is a delectable journey into the world
         of fine dining. Immerse yourself in the culinary
@@ -29,7 +33,7 @@ export default [
     {
         id:3,
         title: 'comeTv',
-        video: './videos/comeTv.mp4',
+        video: video3,
         description: `Experience the potential of the
         "ComeTV Entertainment Web," a minimalist yet 
         promising platform for the future of entertainment. 
@@ -45,7 +49,7 @@ export default [
     {
         id:4,
         title: 'ip-Tracker',
-        video: './videos/ip-tracker.mp4',
+        video: video4,
         description: `The "IP Address Tracker" 
         is a practical tool designed to simplify 
         the process of tracking IP addresses. With

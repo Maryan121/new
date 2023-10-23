@@ -6,7 +6,11 @@
     font-family: 'Open Sans', sans-serif;
     & .cont{
         display: grid;
-        gap: 4rem;
+        gap: 6rem;
+        & .cotainer{
+            display: grid;
+            height: 100%;
+        }
 
     }
    
@@ -39,7 +43,7 @@
         // margin-top: 1.5rem;
         padding: 1.3rem .7rem;
         & .minTitles{
-            background-color: rgb(230, 54, 230);
+            // background-color: rgb(230, 54, 230);
             color: #F2E5F2;
             // color: $bg-color;
             display: flex;
@@ -98,9 +102,6 @@
 
 @media(min-width:900px){
     .main{
-        // padding: 1rem 3rem;
-        // width: 96%;
-        // overflow: hidden;
         margin: 0 auto;
         & .title{
             margin-bottom: 4rem;

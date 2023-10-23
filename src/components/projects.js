@@ -1,8 +1,7 @@
 import React from 'react'
-import { Button,Typography,Grid } from '@mui/material';
-import {  Code, Language, SyncAlt } from '@mui/icons-material';
+import { Button,Typography } from '@mui/material';
+import {  Code, Language } from '@mui/icons-material';
 import { FaList } from 'react-icons/fa';
-
 import data from './data/projectsData';
 
 
@@ -15,7 +14,7 @@ export default function Projects() {
             {data.map((projectData) => {
             return(
               <section className='cotainer' key={projectData.id}>
-                <video autoPlay muted className={`video ${projectData.leftSideVideo}`}>
+                <video autoPlay controls muted className={`video ${projectData.leftSideVideo}`}>
                   <source src={projectData.video} type="video/mp4" />
                 </video>
                 <div className={`description ${projectData.leftSideDescr}`}>

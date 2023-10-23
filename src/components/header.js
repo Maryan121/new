@@ -3,6 +3,7 @@ import '../sass/main.scss';
 import  { Typography, Button }  from '@mui/material';
 import { Menu, Close } from '@mui/icons-material';
 import { useState } from 'react';
+import { HashLink } from 'react-router-hash-link'; 
 
 export default function Header() {
     const [isNavOpen,setIsNavOpen] = useState(false);
@@ -22,12 +23,12 @@ export default function Header() {
                     <Close className='closeIcon' onClick={toggleNav}/>
                 </div>
                 <div className='nav-items'>
-                    <Button href='./about' className="nav-links">about</Button>
-                    <Button href='./projects' className="nav-links">projects</Button>
-                    <Button className="nav-links">challenges</Button>
-                    <Button className="nav-links">skills</Button>
-                    <Button className="nav-links">contact</Button>
-                    <Button className="nav-links resume" variant='outlined' >resume</Button> 
+                    <HashLink to='#about' > <Button className='nav-links'>about</Button> </HashLink>
+                    <HashLink to='#projects' > <Button className='nav-links'>projects</Button> </HashLink>
+                    <HashLink to='#challenges' > <Button className='nav-links'>challenges</Button> </HashLink>
+                    <HashLink to='#skills' > <Button className='nav-links'>skills</Button> </HashLink>
+                    <HashLink to='#contact' > <Button className='nav-links'>contact</Button> </HashLink>
+                    <Button href='https://maryan121.github.io/resume/' className="nav-links resume" variant='outlined' >resume</Button> 
                 </div>
             </nav>
     </header>

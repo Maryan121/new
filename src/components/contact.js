@@ -23,29 +23,30 @@ export default function Contact() {
       }
   return (
     <div className='formContainer' id='contact'>
-        {/* <Typography >contact me</Typography> */}
+        <Typography className='contactTitle' variant='h5'>contact me</Typography>
         <form className='form' onSubmit={handleSubmit}>
-            <TextField 
+            <input 
                 className='textField' 
                 name='name' 
+                label='Name'
                 placeholder='enter your name..' 
                 onChange={handleChange} 
                 value={formData.name}
                 />
-            <TextField 
+            <input 
                 className='textField' 
-                name='email'   
+                name='email'  
+                label='Email' 
                 placeholder='example@gmail.com...' 
                 onChange={handleChange} 
                 value={formData.email}
                 />
-            <TextField 
+            <textarea 
                 className='textField' 
                 name='message' 
+                label='Message'
                 placeholder='message' 
-                rows={4} 
-                fullWidth 
-                multiline 
+                
                 onChange={handleChange} 
                 value={formData.message}
                 />

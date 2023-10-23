@@ -1,15 +1,15 @@
 import React from 'react'
-import { Container } from '@mui/material';
-import { LinkedIn, Instagram, GitHub } from '@mui/icons-material'
+import { Container,Button } from '@mui/material';
+import {  Instagram, GitHub } from '@mui/icons-material'
 import { FaTiktok } from 'react-icons/fa' 
 
 export default function MediaIcons() {
   return (
     <div className='container'> 
         <Container className='innerCont'> 
-            <GitHub  className='icons'/>
-            <FaTiktok className='icons'/>
-            <Instagram className='icons'/>
+            <Button href='https://github.com/Maryan121'> <GitHub  className='icons'/></Button>
+            <Button href='https://www.tiktok.com/@learnwithenergyandfun'> <FaTiktok className='icons'/></Button>
+            <Button href='https://www.instagram.com/maryan_mohamuud1/?hl=ru'> <Instagram className='icons'/></Button> 
         </Container>        
     </div>
   )

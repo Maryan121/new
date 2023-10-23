@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/new/static/css/main.3961672d.css",
-    "main.js": "/new/static/js/main.14c2e7da.js",
-    "static/media/restaurant.mp4": "/new/static/media/restaurant.f29996c498221e0bb401.mp4",
-    "static/media/payApi.mp4": "/new/static/media/payApi.48c35b42eebeb7978b80.mp4",
-    "static/media/comeTv.mp4": "/new/static/media/comeTv.e23bf88a1862d082a07c.mp4",
-    "static/media/ip-tracker.mp4": "/new/static/media/ip-tracker.67167d65cafaa56b1a10.mp4",
-    "static/media/space-tourism.PNG": "/new/static/media/space-tourism.57c153af83f03f228a48.PNG",
-    "static/media/card-details.PNG": "/new/static/media/card-details.a3b434cd125c8a965995.PNG",
-    "static/media/easy-bank.PNG": "/new/static/media/easy-bank.a00adb1a681de26141d5.PNG",
-    "index.html": "/new/index.html",
-    "main.3961672d.css.map": "/new/static/css/main.3961672d.css.map",
-    "main.14c2e7da.js.map": "/new/static/js/main.14c2e7da.js.map"
+    "main.css": "/portfolio-website/static/css/main.f8ffff2e.css",
+    "main.js": "/portfolio-website/static/js/main.55065417.js",
+    "static/media/restaurant.mp4": "/portfolio-website/static/media/restaurant.f29996c498221e0bb401.mp4",
+    "static/media/payApi.mp4": "/portfolio-website/static/media/payApi.48c35b42eebeb7978b80.mp4",
+    "static/media/comeTv.mp4": "/portfolio-website/static/media/comeTv.e23bf88a1862d082a07c.mp4",
+    "static/media/ip-tracker.mp4": "/portfolio-website/static/media/ip-tracker.67167d65cafaa56b1a10.mp4",
+    "static/media/space-tourism.PNG": "/portfolio-website/static/media/space-tourism.57c153af83f03f228a48.PNG",
+    "static/media/card-details.PNG": "/portfolio-website/static/media/card-details.a3b434cd125c8a965995.PNG",
+    "static/media/easy-bank.PNG": "/portfolio-website/static/media/easy-bank.a00adb1a681de26141d5.PNG",
+    "index.html": "/portfolio-website/index.html",
+    "main.f8ffff2e.css.map": "/portfolio-website/static/css/main.f8ffff2e.css.map",
+    "main.55065417.js.map": "/portfolio-website/static/js/main.55065417.js.map"
   },
   "entrypoints": [
-    "static/css/main.3961672d.css",
-    "static/js/main.14c2e7da.js"
+    "static/css/main.f8ffff2e.css",
+    "static/js/main.55065417.js"
   ]
 }

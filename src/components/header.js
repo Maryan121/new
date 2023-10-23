@@ -23,11 +23,11 @@ export default function Header() {
                     <Close className='closeIcon' onClick={toggleNav}/>
                 </div>
                 <div className='nav-items'>
-                    <HashLink style={{textDecoration: 'none'}} to='#about' > <Button className='nav-links'>about</Button> </HashLink>
-                    <HashLink style={{textDecoration: 'none'}} to='#projects' > <Button className='nav-links'>projects</Button> </HashLink>
-                    <HashLink style={{textDecoration: 'none'}} to='#challenges' > <Button className='nav-links'>challenges</Button> </HashLink>
-                    <HashLink style={{textDecoration: 'none'}} to='#skills' > <Button className='nav-links'>skills</Button> </HashLink>
-                    <HashLink style={{textDecoration: 'none'}} to='#contact' > <Button className='nav-links'>contact</Button> </HashLink>
+                    <HashLink style={{textDecoration: 'none'}} smooth to='#about' > <Button className='nav-links'>about</Button> </HashLink>
+                    <HashLink style={{textDecoration: 'none'}} smooth to='#projects' > <Button className='nav-links'>projects</Button> </HashLink>
+                    <HashLink style={{textDecoration: 'none'}} smooth to='#challenges' > <Button className='nav-links'>challenges</Button> </HashLink>
+                    <HashLink style={{textDecoration: 'none'}} smooth to='#skills' > <Button className='nav-links'>skills</Button> </HashLink>
+                    <HashLink style={{textDecoration: 'none'}} smooth to='#contact' > <Button className='nav-links'>contact</Button> </HashLink>
                     <Button href='https://maryan121.github.io/resume/' className="nav-links resume" variant='outlined' >resume</Button> 
                 </div>
             </nav>

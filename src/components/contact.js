@@ -2,6 +2,12 @@ import React from 'react'
 import { useState } from 'react';
 import { TextField,Button, Typography } from '@mui/material';
 
+
+import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom'
+
+import Thankspage from './pages/thankspage';
+
 export default function Contact() {
     const [formData,setFormData] = useState({ 
         name: '',
@@ -32,6 +38,7 @@ export default function Contact() {
                 placeholder='enter your name..' 
                 onChange={handleChange} 
                 value={formData.name}
+                required
                 />
             <input 
                 className='textField' 
@@ -40,22 +47,25 @@ export default function Contact() {
                 placeholder='example@gmail.com...' 
                 onChange={handleChange} 
                 value={formData.email}
+                required
                 />
             <textarea 
                 className='textField' 
                 name='message' 
                 label='Message'
                 placeholder='message' 
-                
                 onChange={handleChange} 
                 value={formData.message}
+                required
                 />
-            <Button 
-                className='submitBtn' 
-                variant='outlined' 
-                type='submit'>
-                    submit
+            <Link to='/Thankspage'>
+                <Button 
+                  className='submitBtn' 
+                  variant='outlined' 
+                  type='submit'>
+                      submit
                 </Button>
+            </Link>
         </form>
     </div>
   )

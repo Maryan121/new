@@ -5,8 +5,6 @@
     font-family: 'League Spartan', sans-serif;
     font-family: 'Inter', sans-serif;
     background-color: #0A050C;
-    // box-shadow: 0px 0px 10px rgb(238, 185, 86);
-    // padding: 4.5rem 1rem 5.5rem 1rem;
     padding: 7rem 1rem;
     border-top: #eedcee3d solid 1px;
     border-top-style: dashed;
@@ -31,12 +29,7 @@
         }
           & .challengesItems{
             background-color: #0A050C ;
-            // margin: 0 1rem;
             box-shadow: 0px 0px 1px #F2E5F2;
-
-
-            // padding: 1rem;
-
             & .challengesMinTitles{
                 margin: 1.5rem;
                 color: #EEDCEE;
@@ -124,8 +117,6 @@
             margin: 0 auto;
             & .challengesItems{
                 text-align: left;
-                // width: 40%;
-
                 width: 100%;
 
                 & .links{

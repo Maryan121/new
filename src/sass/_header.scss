@@ -64,7 +64,6 @@ body{
         @include flex;
         flex-direction: column;
         align-items: center;
-        // width: 100%;
         gap: 1rem;
     
     
@@ -116,7 +115,6 @@ body{
     .header{
         @include flex;
         justify-content: space-between;
-        // align-items: center;
         position: fixed;
         top: 0;
         width: 100%;
@@ -152,7 +150,6 @@ body{
                 font-size: 14px;
                 &:hover{
                     background: none;
-                    // opacity: .8;
                     color: rgb(228, 30, 228);
                     font-weight: 500;
                     color: #f696f6;

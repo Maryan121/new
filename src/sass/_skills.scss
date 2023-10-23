@@ -1,8 +1,5 @@
 .skillsContainer{
     margin: 10rem 1.5rem;
-    
-    background-color: #1D051F;
-    background-color: #0B050D;
     background-color: #0D050F;
     box-shadow: 0px 0px 1px #EEDCEE;
 
@@ -16,7 +13,6 @@
         top: -18%;
         left: -10%;
         opacity: .1;
-        color: rgb(247, 200, 113);
         color: #EEDCEE;
         font-size: 10rem;
         transform: rotate(-4deg);
@@ -32,11 +28,8 @@
 
         & .skillIcons{
             padding: 1rem .4rem;
-            // background-color: #0E0511;
-            font-size: 2.5rem;
             font-size: 1.5rem;
             box-shadow: 0px 0px 2px rgb(231, 131, 231);
-            // background-color: #1D051F;
             & .typog{
                 text-transform: capitalize;
             }
@@ -60,7 +53,6 @@
 
         & .subCont{
             grid-template-columns: repeat(3,1fr);
-            // width: 70%;
             margin: 0 auto;
         }
     }
@@ -75,7 +67,6 @@
         }
         & .subCont{
             grid-template-columns: repeat(4,1fr);
-            // padding: 2rem;
             margin: 0 auto;
         }
     }

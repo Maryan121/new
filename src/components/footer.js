@@ -6,7 +6,6 @@ export default function Footer() {
   return (
     <footer style={{textAlign: 'center'}}>
         <MediaIcons />
-        {/* <small>Maryan Mohamuud</small> */}
     </footer>
   )
 }

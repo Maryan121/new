@@ -2,7 +2,6 @@
  
 .main{
     padding: 1.5rem 2rem;
-    // text-align: center;
     font-family: 'Open Sans', sans-serif;
     & .cont{
         display: grid;
@@ -15,7 +14,6 @@
     }
    
     & .title{
-        // text-align: left;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -28,11 +26,9 @@
         letter-spacing: .9px;
     }
     & video{
-        box-shadow: 0px 0px 10rem rgba(255, 166, 0, 0.315), 0px 0px 3.4rem purple; /* Orange box shadow for videos */
-        box-shadow: 0px 0px 6rem #d8b0d870, 0px 0px 3.4rem purple; /* Orange box shadow for videos */
+        box-shadow: 0px 0px 6rem #d8b0d870, 0px 0px 3.4rem purple; 
         width: 100%;
         border-radius: .9rem .9rem 0 0;
-        // border: solid 1px #D8B0D8;
         border: solid 1px $bg-color;
     }
 
@@ -40,19 +36,15 @@
         background-color: $bg-color;
         box-shadow: 0px 0px 4px $light-color;
         text-align: center;
-        // margin-top: 1.5rem;
         padding: 1.3rem .7rem;
         & .minTitles{
-            // background-color: rgb(230, 54, 230);
             color: #F2E5F2;
-            // color: $bg-color;
             display: flex;
             justify-content: center;
             align-items: center;
             margin-bottom: 1.5rem;
             padding: .3rem .5rem;
             text-transform: capitalize;
-            // margin-top: -2rem;
         }
         & .projectDesc{
             color: #D8B0D8;
@@ -115,7 +107,6 @@
             grid-template-columns:  auto 54%;
             align-items: center;
             gap: 5rem;
-            // margin: 0 auto;
             
             & .video{
                 width: 110%;
@@ -152,7 +143,6 @@
 
             & video{
                 box-shadow: 0px 0px 10rem #d8b0d870, 0px 0px 10rem purple; 
-                // width: 50%;
             }
 
 
@@ -174,8 +164,6 @@
 
 @media(min-width: 1000px){
     .main{
-        // margin: 2rem auto;
-        // width: 96%;
         & .video{
             width: 100%;
             height: 100%;

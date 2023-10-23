@@ -18,15 +18,6 @@ export default function Skills() {
             <div className='skillIcons'><Typography className='typog'>GIT</Typography></div>
             <div className='skillIcons'><Typography className='typog'>NPM/YARN</Typography></div>
             <div className='skillIcons'><Typography className='typog'>GITHUB</Typography></div>
-            {/* <div className='skillIcons'><FaHtml5 /></div>
-            <div className='skillIcons'><FaCss3 /></div>
-            <div className='skillIcons'><FaJsSquare /></div>
-            <div className='skillIcons'><FaReact /></div>
-            <div className='skillIcons'><FaSass /></div>
-            <div className='skillIcons'><FaBootstrap /></div>
-            <div className='skillIcons'><FaGit /></div>
-            <div className='skillIcons'><FaNpm /> / <FaYarn style={{fontSize: '75%'}}/></div>
-            <div className='skillIcons'><GitHub /></div> */}
         </div>
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../sass/main.scss';
+// import '../sass/main.scss';
 import  { Typography, Button }  from '@mui/material';
 import { Menu, Close } from '@mui/icons-material';
 import { useState } from 'react';

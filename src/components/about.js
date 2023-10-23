@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button,Typography, Container } from '@mui/material';
 import MediaIcons from './mediaIcons';
+import { HashLink } from 'react-router-hash-link'
 
 export default function About() {
     
@@ -16,8 +17,8 @@ export default function About() {
                 web design to optimizing user interfaces, i thrive on turning ideas into 
                 pixel-perfect, dynamic websites that leave a lasting impression.
             </Typography>
-            <Button href='./contact' variant='outlined' className='contactBtn' gutterBottom>contact me</Button>
-             <MediaIcons />
+            <HashLink to='#contact' style={{textDecoration: 'none'}}><Button href='./contact' variant='outlined' className='contactBtn' gutterBottom>contact me</Button></HashLink>
+            <MediaIcons />
 
         </Container>
 

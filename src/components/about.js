@@ -9,7 +9,7 @@ export default function About() {
     <div className='aboutCont' id='about'>
         <Container>
             {/* <Typography className='hello' gutterBottom>hello,</Typography> */}
-            <Typography variant='h4' className='welcomingText' gutterBottom>welcome! to my world of web development</Typography>
+            <Typography variant='h4' className='welcomingText' gutterBottom>welcome! to my world of frontend development</Typography>
             <Typography gutterBottom className='aboutParag'>my name is maryan I'm a front end developer with a passion of crafting immersive,
                 user-friendly digital experiences. my journey into this exciting realm 
                 began a couple of years ago when i fell in love with the idea of bringing
@@ -17,9 +17,9 @@ export default function About() {
                 web design to optimizing user interfaces, i thrive on turning ideas into 
                 pixel-perfect, dynamic websites that leave a lasting impression.
             </Typography>
-            <HashLink to='#contact' style={{textDecoration: 'none'}}><Button href='./contact' variant='outlined' className='contactBtn' gutterBottom>contact me</Button></HashLink>
+            <HashLink to='#contact' style={{textDecoration: 'none'}}><Button variant='outlined' className='contactBtn' gutterBottom>contact me</Button></HashLink>
             <MediaIcons />
-
+            
         </Container>
 
       

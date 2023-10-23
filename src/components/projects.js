@@ -14,7 +14,7 @@ export default function Projects() {
             {data.map((projectData) => {
             return(
               <section className='cotainer' key={projectData.id}>
-                <video autoPlay controls muted className={`video ${projectData.leftSideVideo}`}>
+                <video autoPlay muted className={`video ${projectData.leftSideVideo}`}>
                   <source src={projectData.video} type="video/mp4" />
                 </video>
                 <div className={`description ${projectData.leftSideDescr}`}>

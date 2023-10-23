@@ -16,9 +16,10 @@ export default function Challenges() {
                 <div className='imgSection'>
                     <img src={img1} alt='project-image'/>
                 </div>
-                <Typography className='challengesParagraphs'>it is multipage website project which is based on tourism
-                    content, again it was perfect project for me at that time and i
-                    had quite fun time with completing it.
+                <Typography className='challengesParagraphs'>Space Tourism Website: 
+                    Embark on a cosmic journey with this captivating multi-page 
+                    exploration of space tourism. Building this project as a beginner
+                    9 months ago was an exhilarating experience
                 </Typography>
                 <div className='links'>
                     <Button className='demo' variant='outlined' href='https://maryan121.github.io/space-tourism-website/'>demo</Button>
@@ -30,9 +31,10 @@ export default function Challenges() {
                 <div className='imgSection'>
                     <img src={img2} alt='project-image'/>
                 </div>
-                <Typography className='challengesParagraphs'>this project is from frontend mentor website
-                    i participated and completed a while ago, after compleeting i
-                    got a good understanding about form validations related topics.
+                <Typography className='challengesParagraphs'>Interactive Card Details Form: 
+                    Elevating the user experience with a cutting-edge, bank-inspired 
+                    card details form featuring interactive design and robust form validation 
+                    for a seamless experience.
                 </Typography>
                 <div className='links'>
                     <Button className='demo' variant='outlined' href='https://maryan121.github.io/interactive-card-details/'>demo</Button>
@@ -44,9 +46,10 @@ export default function Challenges() {
                 <div className='imgSection'>
                     <img src={img3} alt='project-image'/>
                 </div>
-                <Typography className='challengesParagraphs'>this project is from frontend mentor website
-                    i participated and completed a while ago, after compleeting i
-                    got a good understanding about form validations related topics.
+                <Typography className='challengesParagraphs'>Easy Bank Landing Page: 
+                    A clean and modern landing page 
+                    design for a fictitious banking website, showcasing responsive 
+                    and user-friendly web development skills. Building it was quite fun!
                 </Typography>
                 <div className='links'>
                     <Button className='demo' variant='outlined' href='https://maryan121.github.io/easybank-landingpage/'>demo</Button>

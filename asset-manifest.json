@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new/static/css/main.60c4773b.css",
-    "main.js": "/new/static/js/main.c245527a.js",
+    "main.js": "/new/static/js/main.17fbb1f6.js",
     "static/media/restaurant.mp4": "/new/static/media/restaurant.f29996c498221e0bb401.mp4",
     "static/media/payApi.mp4": "/new/static/media/payApi.48c35b42eebeb7978b80.mp4",
     "static/media/comeTv.mp4": "/new/static/media/comeTv.e23bf88a1862d082a07c.mp4",
@@ -11,10 +11,10 @@
     "static/media/easy-bank.PNG": "/new/static/media/easy-bank.a00adb1a681de26141d5.PNG",
     "index.html": "/new/index.html",
     "main.60c4773b.css.map": "/new/static/css/main.60c4773b.css.map",
-    "main.c245527a.js.map": "/new/static/js/main.c245527a.js.map"
+    "main.17fbb1f6.js.map": "/new/static/js/main.17fbb1f6.js.map"
   },
   "entrypoints": [
     "static/css/main.60c4773b.css",
-    "static/js/main.c245527a.js"
+    "static/js/main.17fbb1f6.js"
   ]
 }

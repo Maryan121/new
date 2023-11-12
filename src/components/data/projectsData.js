@@ -1,15 +1,20 @@
-import video1 from '../../videos/payApi.mp4';
+import video1 from '../../videos/fylo.mp4';
 import video2 from '../../videos/restaurant.mp4';
 import video3 from '../../videos/comeTv.mp4';
 import video4 from '../../videos/ip-tracker.mp4';
+import video5 from '../../videos/payApi.mp4';
 export default [
     {
         id:1,
-        title: 'payApi',
+        title: 'fylo landingpage',
         video: video1,
-        description: 'PayAPI is a responsive landing page.This project features a clean and user-friendly interface, making it easy for users to explore    its offerings. It includes multiple pages for presenting the features, pricing, and contact information. The project is built with HTML, CSS, and JavaScript, ensuring a seamless and responsive user experiences.',
-        demoLink: 'https://maryan121.github.io/payApi/',
-        codeLink: 'https://github.com/Maryan121/payApi'
+        description: `Fylo: Responsive multi-section landing page
+            for efficient file management and collaboration.
+            Streamlined design ensures a seamless experience 
+            on any device. Check out this project in my portfolio.
+        `,
+        demoLink: 'https://maryan121.github.io/fylo-landing-page/',
+        codeLink: 'https://github.com/Maryan121/fylo-landing-page'
     },
     {
         id:2,
@@ -48,6 +53,17 @@ export default [
     },
     {
         id:4,
+        title: 'payApi',
+        video: video5,
+        description: 'PayAPI is a responsive landing page.This project features a clean and user-friendly interface, making it easy for users to explore    its offerings. It includes multiple pages for presenting the features, pricing, and contact information. The project is built with HTML, CSS, and JavaScript, ensuring a seamless and responsive user experiences.',
+        demoLink: 'https://maryan121.github.io/payApi/',
+        codeLink: 'https://github.com/Maryan121/payApi',
+
+        leftSideVideo: 'leftSideVideo',
+        leftSideDescr: 'leftSideDescr'
+    },
+    {
+        id:5,
         title: 'ip-Tracker',
         video: video4,
         description: `The "IP Address Tracker" 
@@ -62,7 +78,5 @@ export default [
         demoLink: 'https://maryan121.github.io/ip-tracker/',
         codeLink: 'https://github.com/Maryan121/ip-tracker',
 
-        leftSideVideo: 'leftSideVideo',
-        leftSideDescr: 'leftSideDescr'
     },
 ]

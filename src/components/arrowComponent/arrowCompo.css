@@ -1,0 +1,27 @@
+.arrowContainer{
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 2.3rem;
+    text-shadow: 0px 0px 10px rgb(246, 59,246);
+    animation: infinite  rotate .3s ;
+}
+
+@keyframes rotate{
+    0%{transform: translateY(-3px);}
+    100%{transform: translateY(0);}
+}
+
+
+@media(min-width:550px){
+    .arrowContainer{
+        margin-top: 10rem;
+        font-size: 3.5rem;
+    }
+}
+
+
+@media(min-width:1000px){
+    .arrowContainer{
+        margin-top: 8rem;
+    }
+}

@@ -8,7 +8,7 @@
     padding: .5rem;
     margin: 3rem auto;
     width: 90%;
-    margin-top: 9rem;
+    margin-top: 8rem;
 
     & .welcomingText{
         text-transform: capitalize;
@@ -19,7 +19,7 @@
     & .aboutParag{
         margin-top: 1rem;
         text-transform: capitalize;
-        color: #D8B0D8;
+        // color: #D8B0D8;
         font-weight: 300;
         line-height: 2rem;
         letter-spacing: .9px;
@@ -29,7 +29,8 @@
         border: solid 1px rgba(220, 172, 84, 0.701);
         border: solid 1px #C183C1;
         color: rgba(220, 172, 84, 0.701);
-        color: #C183C1;
+        color: #e7ade7;
+        color: #e1a9e1;
         &:hover{
             border-color: rgba(248, 54, 248, 0.846);
             background: none;
@@ -55,6 +56,6 @@
 @media(min-width:1000px){
     .aboutCont{
         width: 65%;
-        margin-top: 13rem;
+        margin-top: 11rem;
     }
 }

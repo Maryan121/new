@@ -8,6 +8,7 @@ export default function About() {
   return (
     <div className='aboutCont' id='about'>
         <Container>
+          {/* <Typography variant='h6'>About me</Typography> */}
             <Typography variant='h4' className='welcomingText' gutterBottom>welcome! to my world of frontend development</Typography>
             <Typography gutterBottom className='aboutParag'>my name is maryan I'm a front end developer with a passion of crafting immersive,
                 user-friendly digital experiences. my journey into this exciting realm 

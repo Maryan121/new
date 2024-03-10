@@ -28,30 +28,35 @@ export default function Contact() {
       
 const sendEmail = (e) => {
   e.preventDefault();
-
+  if(formData.user_name === '' || formData.user_email === ''){
+    alert("please enter something!")
+    return
+  }else{
   emailjs.sendForm('service_ixdjv6j', 'template_5ssi66r', form.current, 'Q_A8HlJXKccTnkaMp')
-    .then((result) => {
-        console.log(result.text);
-        console.log('message sent! : '+result.text)
+  .then((result) => {
+      console.log(result.text);
+      console.log('message sent! : '+result.text)
 
-        //showing thanks message after submitting the form
-       setShowThanks(true)
+      //showing thanks message after submitting the form
+     setShowThanks(true)
 
-       //automatically hide thanks message after 7s
-       setTimeout(() => {
-        setShowThanks(false);
-      }, 7000); //in milliseconds
+     //automatically hide thanks message after 7s
+     setTimeout(() => {
+      setShowThanks(false);
+    }, 7000); //in milliseconds
 
 
-    }, (error) => {
-        console.log(error.text);
-    });
+  }, (error) => {
+      console.log(error.text);
+  });
+  setFormData({
+    user_name : '',
+    user_email : '',
+    message : '',
+  })
+  }
 
-    setFormData({
-      user_name : '',
-      user_email : '',
-      message : '',
-    })
+    
 };
 
 

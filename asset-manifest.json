@@ -1,21 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.f8ffff2e.css",
-    "main.js": "/portfolio-website/static/js/main.54dfed91.js",
+    "main.css": "/portfolio-website/static/css/main.701ab2a0.css",
+    "main.js": "/portfolio-website/static/js/main.2f97fe28.js",
     "static/media/restaurant.mp4": "/portfolio-website/static/media/restaurant.f29996c498221e0bb401.mp4",
     "static/media/payApi.mp4": "/portfolio-website/static/media/payApi.48c35b42eebeb7978b80.mp4",
     "static/media/comeTv.mp4": "/portfolio-website/static/media/comeTv.e23bf88a1862d082a07c.mp4",
     "static/media/ip-tracker.mp4": "/portfolio-website/static/media/ip-tracker.67167d65cafaa56b1a10.mp4",
+    "static/media/restaurant.PNG": "/portfolio-website/static/media/restaurant.621d59663c9085fcceb0.PNG",
     "static/media/fylo.mp4": "/portfolio-website/static/media/fylo.4336eaadecadd2abaf21.mp4",
+    "static/media/travel-journal.PNG": "/portfolio-website/static/media/travel-journal.bad2f6cad95006bc391e.PNG",
+    "static/media/travel-journal1.PNG": "/portfolio-website/static/media/travel-journal1.92352c95da0e9084afa0.PNG",
     "static/media/space-tourism.PNG": "/portfolio-website/static/media/space-tourism.57c153af83f03f228a48.PNG",
+    "static/media/e-commerce-productpage.PNG": "/portfolio-website/static/media/e-commerce-productpage.4f315a5cf44af45757f2.PNG",
     "static/media/card-details.PNG": "/portfolio-website/static/media/card-details.a3b434cd125c8a965995.PNG",
+    "static/media/card-details-form.PNG": "/portfolio-website/static/media/card-details-form.6c22b475c6fb39953d27.PNG",
+    "static/media/agencyLandingpage.PNG": "/portfolio-website/static/media/agencyLandingpage.024583a45eb550864ac0.PNG",
+    "static/media/easyLandingpage.PNG": "/portfolio-website/static/media/easyLandingpage.a8fde7d35a4fbf24cbbd.PNG",
     "static/media/easy-bank.PNG": "/portfolio-website/static/media/easy-bank.a00adb1a681de26141d5.PNG",
+    "static/media/fylo-landingpage.PNG": "/portfolio-website/static/media/fylo-landingpage.17fcfb83c7c513734b1e.PNG",
+    "static/media/book-lib.PNG": "/portfolio-website/static/media/book-lib.d8978e153d81f20df660.PNG",
+    "static/media/payApi.PNG": "/portfolio-website/static/media/payApi.ce5ad4d99777d5ef305f.PNG",
+    "static/media/chat-app.PNG": "/portfolio-website/static/media/chat-app.ba81cce62809d7e5b5ad.PNG",
     "index.html": "/portfolio-website/index.html",
-    "main.f8ffff2e.css.map": "/portfolio-website/static/css/main.f8ffff2e.css.map",
-    "main.54dfed91.js.map": "/portfolio-website/static/js/main.54dfed91.js.map"
+    "main.701ab2a0.css.map": "/portfolio-website/static/css/main.701ab2a0.css.map",
+    "main.2f97fe28.js.map": "/portfolio-website/static/js/main.2f97fe28.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8ffff2e.css",
-    "static/js/main.54dfed91.js"
+    "static/css/main.701ab2a0.css",
+    "static/js/main.2f97fe28.js"
   ]
 }

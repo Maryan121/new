@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.701ab2a0.css",
-    "main.js": "/portfolio-website/static/js/main.2f97fe28.js",
+    "main.js": "/portfolio-website/static/js/main.40f93026.js",
     "static/media/restaurant.mp4": "/portfolio-website/static/media/restaurant.f29996c498221e0bb401.mp4",
     "static/media/payApi.mp4": "/portfolio-website/static/media/payApi.48c35b42eebeb7978b80.mp4",
     "static/media/comeTv.mp4": "/portfolio-website/static/media/comeTv.e23bf88a1862d082a07c.mp4",
@@ -9,6 +9,7 @@
     "static/media/restaurant.PNG": "/portfolio-website/static/media/restaurant.621d59663c9085fcceb0.PNG",
     "static/media/fylo.mp4": "/portfolio-website/static/media/fylo.4336eaadecadd2abaf21.mp4",
     "static/media/travel-journal.PNG": "/portfolio-website/static/media/travel-journal.bad2f6cad95006bc391e.PNG",
+    "static/media/registeringForm.mp4": "/portfolio-website/static/media/registeringForm.9a765c52f0a7f61f4ebe.mp4",
     "static/media/travel-journal1.PNG": "/portfolio-website/static/media/travel-journal1.92352c95da0e9084afa0.PNG",
     "static/media/space-tourism.PNG": "/portfolio-website/static/media/space-tourism.57c153af83f03f228a48.PNG",
     "static/media/e-commerce-productpage.PNG": "/portfolio-website/static/media/e-commerce-productpage.4f315a5cf44af45757f2.PNG",
@@ -23,10 +24,10 @@
     "static/media/chat-app.PNG": "/portfolio-website/static/media/chat-app.ba81cce62809d7e5b5ad.PNG",
     "index.html": "/portfolio-website/index.html",
     "main.701ab2a0.css.map": "/portfolio-website/static/css/main.701ab2a0.css.map",
-    "main.2f97fe28.js.map": "/portfolio-website/static/js/main.2f97fe28.js.map"
+    "main.40f93026.js.map": "/portfolio-website/static/js/main.40f93026.js.map"
   },
   "entrypoints": [
     "static/css/main.701ab2a0.css",
-    "static/js/main.2f97fe28.js"
+    "static/js/main.40f93026.js"
   ]
 }

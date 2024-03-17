@@ -1,8 +1,10 @@
 import video1 from '../../videos/fylo.mp4';
-import video2 from '../../videos/restaurant.mp4';
-import video3 from '../../videos/comeTv.mp4';
-import video4 from '../../videos/ip-tracker.mp4';
+import video2 from '../../videos/registeringForm.mp4'
+import video3 from '../../videos/restaurant.mp4';
+import video4 from '../../videos/comeTv.mp4';
 import video5 from '../../videos/payApi.mp4';
+import video6 from '../../videos/ip-tracker.mp4';
+
 export default [
     {
         id:1,
@@ -18,8 +20,24 @@ export default [
     },
     {
         id:2,
-        title: 'yummyFood',
+        title: 'registering form',
         video: video2,
+        description: ` This React project showcases my skills with
+         advanced form validation. Seamlessly input your details – 
+         name, email, and password – with precision. Explore this 
+         showcase of my React proficiency, where accuracy meets 
+         innovation in form validation.
+        `,
+
+        demoLink: 'https://maryan121.github.io/register-form/',
+        codeLink: 'https://github.com/Maryan121/register-form',
+        leftSideVideo: 'leftSideVideo',
+        leftSideDescr: 'leftSideDescr'
+    },
+    {
+        id:3,
+        title: 'yummyFood',
+        video: video3,
         description: ` The "YummyFood Restaurant
         Website" is a delectable journey into the world
         of fine dining. Immerse yourself in the culinary
@@ -32,13 +50,12 @@ export default [
 
         demoLink: 'https://maryan121.github.io/restaurant-web/',
         codeLink: 'https://github.com/Maryan121/restaurant-web',
-        leftSideVideo: 'leftSideVideo',
-        leftSideDescr: 'leftSideDescr'
+        
     },
     {
-        id:3,
+        id:4,
         title: 'comeTv',
-        video: video3,
+        video: video4,
         description: `Experience the potential of the
         "ComeTV Entertainment Web," a minimalist yet 
         promising platform for the future of entertainment. 
@@ -49,23 +66,22 @@ export default [
         Built with HTML, CSS, and JavaScript, the "ComeTV 
         Entertainment Web" is primed for your creative vision.`,
         demoLink: 'https://maryan121.github.io/comeTv/',
-        codeLink: 'https://github.com/Maryan121/comeTv'
-    },
-    {
-        id:4,
-        title: 'payApi',
-        video: video5,
-        description: 'PayAPI is a responsive landing page.This project features a clean and user-friendly interface, making it easy for users to explore    its offerings. It includes multiple pages for presenting the features, pricing, and contact information. The project is built with HTML, CSS, and JavaScript, ensuring a seamless and responsive user experiences.',
-        demoLink: 'https://maryan121.github.io/payApi/',
-        codeLink: 'https://github.com/Maryan121/payApi',
-
+        codeLink: 'https://github.com/Maryan121/comeTv',
         leftSideVideo: 'leftSideVideo',
         leftSideDescr: 'leftSideDescr'
     },
     {
         id:5,
+        title: 'payApi',
+        video: video5,
+        description: 'PayAPI is a responsive landing page.This project features a clean and user-friendly interface, making it easy for users to explore    its offerings. It includes multiple pages for presenting the features, pricing, and contact information. The project is built with HTML, CSS, and JavaScript, ensuring a seamless and responsive user experiences.',
+        demoLink: 'https://maryan121.github.io/payApi/',
+        codeLink: 'https://github.com/Maryan121/payApi',
+    },
+    {
+        id:6,
         title: 'ip-Tracker',
-        video: video4,
+        video: video6,
         description: `The "IP Address Tracker" 
         is a practical tool designed to simplify 
         the process of tracking IP addresses. With
@@ -77,6 +93,8 @@ export default [
         
         demoLink: 'https://maryan121.github.io/ip-tracker/',
         codeLink: 'https://github.com/Maryan121/ip-tracker',
+        leftSideVideo: 'leftSideVideo',
+        leftSideDescr: 'leftSideDescr'
 
     },
 ]

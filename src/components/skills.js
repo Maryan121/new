@@ -1,11 +1,11 @@
 import React from 'react'
-import {FaCanadianMapleLeaf } from 'react-icons/fa';
+// import {FaCanadianMapleLeaf } from 'react-icons/fa';
 import { Typography } from '@mui/material';
 
 export default function Skills() {
   return (
     <div className='skillsContainer' id='skills'>
-        <FaCanadianMapleLeaf className='leaveIcon'/>
+        {/* <FaCanadianMapleLeaf className='leaveIcon'/> */}
         <Typography className='skillsTitle' variant='h4'>skills</Typography>
         <div className='subCont'>
             <div className='skillIcons'><Typography className='typog'>HTML</Typography></div>

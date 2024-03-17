@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button,Typography } from '@mui/material';
 import {  Code, Language } from '@mui/icons-material';
-import { FaList } from 'react-icons/fa';
+// import { FaList } from 'react-icons/fa';
 import data from './data/projectsData';
 
 
@@ -9,7 +9,8 @@ export default function Projects() {
 
   return (
     <main className='main' id='projects'>
-      <Typography className='title' variant='h5' ><FaList /> projects</Typography>
+      {/* <FaList />  */}
+      <Typography className='title' variant='h5' > projects</Typography>
           <div className='cont'>
             {data.map((projectData) => {
             return(

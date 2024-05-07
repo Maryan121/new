@@ -4,10 +4,21 @@ import video3 from '../../videos/restaurant.mp4';
 import video4 from '../../videos/comeTv.mp4';
 import video5 from '../../videos/payApi.mp4';
 import video6 from '../../videos/ip-tracker.mp4';
+import video7 from '../../videos/bookmark.mp4';
 
 export default [
     {
         id:1,
+        title: 'bookmark landingpage',
+        video: video7,
+        description: ` Explore our sleek bookmark landing page, powered by React.js. Discover its 'About',
+        'Features', 'FAQs',and 'Quick Contact' sections for effortless browsing. Welcome to the future
+        of bookmarking. `,
+        demoLink: 'https://maryan121.github.io/bookmark-landing-page/',
+        codeLink: 'https://github.com/Maryan121/bookmark-landing-page'
+    },
+    {
+        id:2,
         title: 'fylo landingpage',
         video: video1,
         description: `Fylo: Responsive multi-section landing page
@@ -16,10 +27,12 @@ export default [
             on any device. Check out this project in my portfolio.
         `,
         demoLink: 'https://maryan121.github.io/fylo-landing-page/',
-        codeLink: 'https://github.com/Maryan121/fylo-landing-page'
+        codeLink: 'https://github.com/Maryan121/fylo-landing-page',
+        leftSideVideo: 'leftSideVideo',
+        leftSideDescr: 'leftSideDescr'
     },
     {
-        id:2,
+        id:3,
         title: 'registering form',
         video: video2,
         description: ` This React project showcases my skills with
@@ -31,11 +44,10 @@ export default [
 
         demoLink: 'https://maryan121.github.io/register-form/',
         codeLink: 'https://github.com/Maryan121/register-form',
-        leftSideVideo: 'leftSideVideo',
-        leftSideDescr: 'leftSideDescr'
+       
     },
     {
-        id:3,
+        id:4,
         title: 'yummyFood',
         video: video3,
         description: ` The "YummyFood Restaurant
@@ -50,10 +62,12 @@ export default [
 
         demoLink: 'https://maryan121.github.io/restaurant-web/',
         codeLink: 'https://github.com/Maryan121/restaurant-web',
+        leftSideVideo: 'leftSideVideo',
+        leftSideDescr: 'leftSideDescr'
         
     },
     {
-        id:4,
+        id:5,
         title: 'comeTv',
         video: video4,
         description: `Experience the potential of the
@@ -67,19 +81,20 @@ export default [
         Entertainment Web" is primed for your creative vision.`,
         demoLink: 'https://maryan121.github.io/comeTv/',
         codeLink: 'https://github.com/Maryan121/comeTv',
-        leftSideVideo: 'leftSideVideo',
-        leftSideDescr: 'leftSideDescr'
+       
     },
     {
-        id:5,
+        id:6,
         title: 'payApi',
         video: video5,
         description: 'PayAPI is a responsive landing page.This project features a clean and user-friendly interface, making it easy for users to explore    its offerings. It includes multiple pages for presenting the features, pricing, and contact information. The project is built with HTML, CSS, and JavaScript, ensuring a seamless and responsive user experiences.',
         demoLink: 'https://maryan121.github.io/payApi/',
         codeLink: 'https://github.com/Maryan121/payApi',
+        leftSideVideo: 'leftSideVideo',
+        leftSideDescr: 'leftSideDescr'
     },
     {
-        id:6,
+        id:7,
         title: 'ip-Tracker',
         video: video6,
         description: `The "IP Address Tracker" 
@@ -93,8 +108,5 @@ export default [
         
         demoLink: 'https://maryan121.github.io/ip-tracker/',
         codeLink: 'https://github.com/Maryan121/ip-tracker',
-        leftSideVideo: 'leftSideVideo',
-        leftSideDescr: 'leftSideDescr'
-
     },
 ]
